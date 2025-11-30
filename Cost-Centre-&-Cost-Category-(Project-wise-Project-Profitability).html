@@ -1,1 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tally Prime – Advanced Topic 2: Cost Centre & Cost Category</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TALLY PRIME – ADVANCED MODULE</h1>
+            <p style="font-size: 2.2rem; font-weight: 700; color: #1a1a1a; margin: 10px 0;">
+                📘 TOPIC 2: COST CENTRE & COST CATEGORY
+            </p>
+            <p style="font-size: 1.5rem; color: #1976d2;">
+                Project-wise • Department-wise • Branch-wise Profitability Analysis
+            </p>
+        </header>
 
+        <!-- Table of Contents -->
+        <div class="toc">
+            <h2>Chapter Index</h2>
+            <ul>
+                <li><a href="#theory">1. Theory Section</a></li>
+                <li><a href="#practical">2. Practical Section</a></li>
+                <li><a href="#examples">3. Worked Examples</a></li>
+                <li><a href="#practice">4. Practice Set – 10 Entries</a></li>
+                <li><a href="#assignment">5. Integrated Assignment</a></li>
+                <li><a href="#reports">6. Reports to Check</a></li>
+                <li><a href="#outcome">7. Learning Outcome</a></li>
+            </ul>
+        </div>
+
+        <main>
+            <section id="theory">
+                <h2>1. Theory Section</h2>
+
+                <h3>1.1 What Are Cost Centres?</h3>
+                <p>Any unit (department, project, branch, employee) whose income & expenses you want to track separately.</p>
+                <ul class="highlight-list">
+                    <li>Project Alpha, Project Beta</li>
+                    <li>Sales Dept, Production Dept</li>
+                    <li>Mumbai Branch, Delhi Branch</li>
+                </ul>
+
+                <h3>1.2 Why Use Cost Centres?</h3>
+                <ul>
+                    <li>Know which project is profitable</li>
+                    <li>Identify high-cost departments</li>
+                    <li>Compare branch performance</li>
+                </ul>
+
+                <h3>1.3–1.4 Cost Centres vs Cost Categories</h3>
+                <table>
+                    <tr><th>Feature</th><th>Cost Centre</th><th>Cost Category</th></tr>
+                    <tr><td>Tracking</td><td>One dimension</td><td>Multiple dimensions at once</td></tr>
+                    <tr><td>Example</td><td>Project Alpha</td><td>Projects Category + Department Category</td></tr>
+                    <tr><td>Use Case</td><td>Simple tracking</td><td>Complex multi-analysis</td></tr>
+                </table>
+
+                <h3>1.7 Enable in Tally Prime</h3>
+                <p><strong>F11 → Accounting Features →</strong><br>
+                Maintain Cost Centres: <strong>Yes</strong><br>
+                Use Cost Categories: <strong>Yes</strong></p>
+            </section>
+
+            <section id="practical">
+                <h2>2. Practical Section</h2>
+
+                <h3>2.1 Create Cost Categories</h3>
+                <div class="practice-entry">Projects Category</div>
+                <div class="practice-entry">Department Category</div>
+
+                <h3>2.2 Create Cost Centres</h3>
+                <div class="grid-2">
+                    <div>
+                        <strong>Under Projects Category:</strong><br>
+                        • Project Alpha<br>
+                        • Project Beta
+                    </div>
+                    <div>
+                        <strong>Under Department Category:</strong><br>
+                        • Sales Department<br>
+                        • Production Department
+                    </div>
+                </div>
+
+                <h3>2.3 Ledger Setting</h3>
+                <p>In expense/income ledgers → Set <strong>“Allocate to Cost Centres: Yes”</strong></p>
+            </section>
+
+            <section id="examples">
+                <h2>3. Worked Examples (Fully Solved)</h2>
+
+                <div class="practice-entry">
+                    <strong>Example 1 – Salary Allocation</strong><br>
+                    Payment Voucher → Salaries ₹60,000<br>
+                    → Project Alpha: ₹40,000 | Project Beta: ₹20,000
+                </div>
+                <div class="practice-entry">
+                    <strong>Example 2 – Mobile Expense</strong><br>
+                    Mobile Expense ₹12,000<br>
+                    → Sales Dept: ₹8,000 | Production Dept: ₹4,000
+                </div>
+                <div class="practice-entry">
+                    <strong>Example 3 – Income Allocation</strong><br>
+                    Professional Income ₹45,000<br>
+                    → Project Alpha: ₹25,000 | Project Beta: ₹20,000
+                </div>
+            </section>
+
+            <section id="practice">
+                <h2>4. Practice Set – 10 Cost Centre Entries (Will Be Used in Topic 3)</h2>
+                <p class="highlight"><strong>Do NOT change amounts or centres!</strong></p>
+
+                <h3>A. Project-wise Entries (Projects Category)</h3>
+                <table>
+                    <tr><th>Sr</th><th>Voucher</th><th>Ledger</th><th>Amount</th><th>Project</th></tr>
+                    <tr><td>1</td><td>Payment</td><td>Travelling Expense</td><td>₹6,000</td><td>Project Alpha</td></tr>
+                    <tr><td>2</td><td>Payment</td><td>Salary Expense</td><td>₹45,000</td><td>Project Beta</td></tr>
+                    <tr><td>3</td><td>Receipt</td><td>Professional Income</td><td>₹30,000</td><td>Project Alpha</td></tr>
+                    <tr><td>4</td><td>Payment</td><td>Office Supplies</td><td>₹3,500</td><td>Project Alpha</td></tr>
+                    <tr><td>5</td><td>Receipt</td><td>Service Income</td><td>₹25,000</td><td>Project Beta</td></tr>
+                </table>
+
+                <h3>B. Department-wise Entries (Department Category)</h3>
+                <table>
+                    <tr><th>Sr</th><th>Voucher</th><th>Ledger</th><th>Amount</th><th>Department</th></tr>
+                    <tr><td>1</td><td>Payment</td><td>Printing & Stationery</td><td>₹2,800</td><td>Sales Dept</td></tr>
+                    <tr><td>2</td><td>Payment</td><td>Staff Welfare</td><td>₹4,200</td><td>Production Dept</td></tr>
+                    <tr><td>3</td><td>Payment</td><td>Electricity Charges</td><td>₹9,500</td><td>Production Dept</td></tr>
+                    <tr><td>4</td><td>Receipt</td><td>Misc. Income</td><td>₹3,000</td><td>Sales Dept</td></tr>
+                    <tr><td>5</td><td>Payment</td><td>Repairs & Maintenance</td><td>₹7,400</td><td>Sales Dept</td></tr>
+                </table>
+            </section>
+
+            <section id="assignment">
+                <h2>5. Integrated Assignment</h2>
+                <ol class="important">
+                    <li>Create 2 Cost Categories: <strong>Projects Category</strong> & <strong>Department Category</strong></li>
+                    <li>Create Cost Centres as shown above</li>
+                    <li>Enter all 10 practice entries using Payment & Receipt vouchers</li>
+                </ol>
+            </section>
+
+            <section id="reports">
+                <h2>6. Reports to Check</h2>
+                <ul class="highlight-list">
+                    <li><strong>Cost Centre Break-up</strong> → Ledger-wise allocation</li>
+                    <li><strong>Category Summary → Projects Category</strong> → Project Alpha vs Beta profit</li>
+                    <li><strong>Category Summary → Department Category</strong> → Dept expense analysis</li>
+                </ul>
+            </section>
+
+            <section id="outcome">
+                <h2>7. Learning Outcome</h2>
+                <p class="highlight" style="font-size: 1.4rem;">
+                    You can now track profitability by Project, Department, or Branch — just like a professional CA firm!
+                </p>
+            </section>
+        </main>
+
+        <div class="nav-links">
+            <a href="Advanced-01-Bill-wise-Details-Credit-Limits.html">← Topic 1: Bill-wise & Credit Limits</a>
+            <a href="next-advanced-topic.html">Topic 3: Voucher Class →</a>
+        </div>
+
+        <footer>
+            <p>© 2025 Tally Prime Advanced Series • Made with ❤️ for Future Accountants</p>
+        </footer>
+    </div>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        ↑
+    </div>
+
+    <script src="../scripts.js"></script>
+</body>
+</html>
